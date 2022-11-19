@@ -33,7 +33,7 @@ function sendEmail(name,txt)
         })
 }
 
-
+/*
   const url ="mongodb://localhost:27017";
 
    app.post("/save",(req,res)=>{
@@ -56,5 +56,5 @@ function sendEmail(name,txt)
            }
        })
  })
-
+*/
 app.listen(9001, ()=>{console.log("server ready @ 9001")})
